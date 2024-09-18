@@ -27,18 +27,9 @@ top:0;
 border-bottom: solid;
 border-color: gold;
 }
-main{
-background-color: rgb(23, 23, 189);
-position: absolute;
-width: 100%;
-height: 200px;
-left: 0;
-top:15%;
-border-bottom: solid;
-border-color: rgb(24, 128, 128);
-}
-footer{
-position:fixed;
+
+
+footer{position:fixed;
 top:95%;
 left:25%;
 }
