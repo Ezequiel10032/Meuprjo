@@ -3,15 +3,10 @@ html {
   width: 100%;
 }
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
 @media(max-width : 600px){
 
-@keyframes animacao2{
-0%{color:gold}
-100%{color: chartreuse;}
-}
+
 }
 /*Estrutura*/
 body{
@@ -27,7 +22,6 @@ top:0;
 border-bottom: solid;
 border-color: gold;
 }
-
 
 footer{position:fixed;
 top:95%;
@@ -50,7 +44,7 @@ top: 2%;
 }
 h1{
 text-align: center;
-font-family: "Matemasie", sans-serif;
+font-family: "Matemasie";
 font-style: normal;
 font-size:x-large;
 color:gold;
@@ -79,41 +73,7 @@ color:gold;
   font-family: monospace;
   color: aqua;
   }
-  /*Estrelas*/
-  .bi-star{
-    position: relative;
-    top: 30%;
-  color: white;
-  font-size: medium;
-  }
-.bi-moon-stars-fill{
-    position: relative;
-   color: rgb(212, 205, 162);
-   bottom:40%;
-  left: -3%;
-  font-size:50px;
-  }
-#nuvem1{
-position: fixed;
-width: 150px;
-height: 150px;
-left: -5%;
-top:29% ;
-}
-#nuvem2{
-position:fixed;
-width: 160px;
-height: 160px;
-left: 25%;
-top: 30%;
-}
-#nuvem3{
-position: fixed;
-width: 160px;
-height: 160px;
-left: 60%;
-top: 30%;
-}
+
 #btn{
   position: fixed;
   bottom: 93%;
@@ -170,5 +130,9 @@ top: 30%;
     0%{transform:rotate(0deg)}
     50%{transform: rotate(15deg); }
    }
-  
+   @keyframes animacao2{
+0%{color:gold}
+100%{color: chartreuse;}
+}
+   
  
