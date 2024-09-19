@@ -31,15 +31,15 @@ left:25%;
 #version{
 color: white;
 font-size:small;
-text-align:end;
-top: 0;
+top: 0%;
 position: relative;
+left: 1%;
     }
 #logo1{
 width:70px;
 height:70px ;
 position: fixed;
-left: 75%;
+left: 4%;
 top: 2%;
 }
 h1{
@@ -73,26 +73,26 @@ color:gold;
   font-family: monospace;
   color: aqua;
   }
-
-#btn{
-  position: fixed;
-  bottom: 93%;
-  left: 10%;
-  background-color:black;
-  color:white;
-  font-size:small;
-  }
-  .bi-rocket-takeoff{
+  
+  /*foguetes*/
+  #foguete1{
   position: fixed;
   font-size: 30px;
-  left: -10%;
+  left: 2%;
   top: 70%;
   color:hsl(0, 100%, 100%);
   animation-name: animacao1;
-  animation-delay: 4s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
-  animation-duration: 0.1s;
   }
+  #foguete2{
+  position: fixed;
+  font-size: 30px;
+  left: 2%;
+  top: 60%;
+  color: Black ;
+ 
+}
 
   #btniniciar{
     position: fixed;
