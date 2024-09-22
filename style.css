@@ -51,6 +51,12 @@ position: fixed;
 left: 21%;
 top: 0%;
 }
+#ms{
+color: white;
+position: fixed;
+top: 50%;
+}
+
 #txt0{
 text-decoration: underline ;
   position:fixed;
@@ -86,7 +92,7 @@ animation-delay: 0s;
  left: 13%;
  font-weight: bold;
  font-size: large;
- color: greenyellow;
+ color: red;
  }
  #tm{
   position: fixed;
@@ -116,10 +122,10 @@ font-size:large;
   #recorde{
       position: fixed;
  top: 10%;
- left: 77%;
+ left: 70%;
  font-weight: bold;
  font-size: large;
- color: greenyellow;
+ color: Orange;
   }
   
  #rcd{
