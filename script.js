@@ -12,7 +12,9 @@ var tempo = document.getElementById
 ("tempo")
 var msg1= document.getElementById("txt2")
 var rocket = document.getElementById("rocket");
-var pontuação = document.getElementById("pontos")
+var pontuação = document.querySelector(".pontos")
+var som = document.getElementById("som")
+var som2 = document.getElementById("som2")
 //Inicialização
 
 alert("Olá, Ezequiel deseja boas vindas. Clique em Super Ezq para Começar!")
@@ -25,6 +27,7 @@ main.style.visibility="visible"
 footer.style.visibility="visible"
 abertura.style.visibility="hidden"
 rocket.style.visibility ="hidden"
+som2.play();
 }
 
 
@@ -32,10 +35,11 @@ rocket.style.visibility ="hidden"
 btnliga.addEventListener("click", () =>
 iniciar());
 function iniciar() {
-  foguete1.style.animationDuration = "4s";
-  segundos=21
+  foguete1.style.animationDuration = "6s";
+  segundos=26
   msg1.style.color="red"
     msg1.style.textDecoration = "line-through";
+    pontuação.innerHTML = 0
 números = 1
 }
 btnliga.addEventListener('click', () => sumir());
@@ -70,7 +74,7 @@ if (segundos>0) {
 }
 setInterval(function () {
     pontos();
-}, 100);
+}, 100000);
 
 //sistema de recorde
  
@@ -85,7 +89,13 @@ btnliga.style.color="blue"
 msg1.style.color="greenyellow"
 msg1.style.textDecoration = "none";
 
-
 }
 
+//sinalizacao
+ foguete1.addEventListener("click", () =>
+ ativarsom())
 
+function ativarsom() {
+  som.play();
+}
+ 
